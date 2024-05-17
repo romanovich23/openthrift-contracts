@@ -1,39 +1,23 @@
-# <h1 align="center"> Forge Template </h1>
+## OpenThrift Contracts
 
-**Template repository for getting started quickly with Foundry projects**
+**Smart Contracts** that power the [OpenThrift](https://github.com/romanovich23/OpenThrift).
 
-![Github Actions](https://github.com/foundry-rs/forge-template/workflows/CI/badge.svg)
+### Prerequisites
 
-## Getting Started
+To use Foundry, you must have [Rust](https://www.rust-lang.org/tools/install) installed on your machine.
 
-Click "Use this template" on [GitHub](https://github.com/foundry-rs/forge-template) to create a new repository with this repo as the initial state.
+### Development
 
-Or, if your repo already exists, run:
-```sh
-forge init
-forge build
-forge test
-```
+This project uses Foundry. See the book for instructions on how to install and use Foundry.
 
-## Writing your first test
+## Documentation
+ 
+This initiative is a component of [OpenThrift](https://github.com/romanovich23/OpenThrift). For further details, explore the documentation dedicated to this project
 
-All you need is to `import forge-std/Test.sol` and then inherit it from your test contract. Forge-std's Test contract comes with a pre-instatiated [cheatcodes environment](https://book.getfoundry.sh/cheatcodes/), the `vm`. It also has support for [ds-test](https://book.getfoundry.sh/reference/ds-test.html)-style logs and assertions. Finally, it supports Hardhat's [console.log](https://github.com/brockelmore/forge-std/blob/master/src/console.sol). The logging functionalities require `-vvvv`.
+## License
 
-```solidity
-pragma solidity 0.8.10;
+OpenThrift is released under the MIT license. Feel free to use, modify, and/or redistribute this software as you see fit. See the [LICENSE](./LICENSE) file for more information.
 
-import "forge-std/Test.sol";
+## Contributors
 
-contract ContractTest is Test {
-    function testExample() public {
-        vm.roll(100);
-        console.log(1);
-        emit log("hi");
-        assertTrue(true);
-    }
-}
-```
-
-## Development
-
-This project uses [Foundry](https://getfoundry.sh). See the [book](https://book.getfoundry.sh/getting-started/installation.html) for instructions on how to install and use Foundry.
+Maintained with love by [romanovich23](https://github.com/romanovich23)
